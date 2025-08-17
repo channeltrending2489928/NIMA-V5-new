@@ -74,10 +74,10 @@ const store = {
     }
 }
 
-let phoneNumber = "94726800969"
+let phoneNumber = "94741035694"
 let owner = JSON.parse(fs.readFileSync('./data/owner.json'))
 
-global.botname = "NIMA-V5"
+global.botname = "♡ 𝐒𝐮𝐧𝐧𝐲 𝐓𝐞𝐜𝐡 𝐁𝐫𝐨 ♡"
 global.themeemoji = "•"
 global.statusview = true
 
@@ -277,7 +277,7 @@ async function startconn() {
                     isForwarded: false,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '@newsler',
-                        newsletterName: 'NIMA-V5',
+                        newsletterName: '♡ 𝐒𝐮𝐧𝐧𝐲 𝐓𝐞𝐜𝐡 𝐁𝐫𝐨 ♡',
                         serverMessageId: -1
                     }
                 }
