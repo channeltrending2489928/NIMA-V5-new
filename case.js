@@ -51,7 +51,7 @@ const newOwner = fs.readFileSync("./lib/owner.json")
 const isOwner = newOwner.includes(m.sender);
 const command = body.slice(1).trim().split(/ +/).shift().toLowerCase();
 const args = body.trim().split(/ +/).slice(1);
-const pushname = m.pushName || "සමූහයේ කිසිඳු නමක් නැත";
+const pushname = m.pushName || "එහෙම නමක් නෑ යකෝ 😅🤭";
 const text = q = args.join(" ");
 const quoted = m.quoted ? m.quoted : m;
 const mime = (quoted.msg || quoted).mimetype || '';
@@ -117,7 +117,7 @@ participant: `120363419075720962@s.whatsapp.net`, ...(from ? { remoteJid: "statu
 },
 "message": {
 "audioMessage": {
-"url": "https://mmg.whatsapp.net/v/t62.7114-24/56189035_1525713724502608_8940049807532382549_n.enc?ccb=11-4&oh=01_AdR7-4b88Hf2fQrEhEBY89KZL17TYONZdz95n87cdnDuPQ&oe=6489D172&mms3=true",
+"url": "https://wa.me/message/MBVT6ZZFGGAQC1=true",
 "mimetype": "audio/mp4",
 "fileSha256": "oZeGy+La3ZfKAnQ1epm3rbm1IXH8UQy7NrKUK3aQfyo=",
 "fileLength": "1067401",
@@ -173,7 +173,7 @@ if (global.autorecordtype) {
 }
 
 if (autobio) {
-  supreme.updateProfileStatus(` NIMA V5 මෙ වෙලාවෙ online පටන් ගෙන දැන් ${runtime(process.uptime())}`)
+  supreme.updateProfileStatus(` ♡ 𝐒𝐮𝐧𝐧𝐲 𝐓𝐞𝐜𝐡 𝐁𝐫𝐨 ♡ මෙ වෙලාවෙ online පටන් ගෙන දැන් ${runtime(process.uptime())}`)
     .catch(err => console.error("Error updating status:", err));
 }
 
@@ -183,7 +183,7 @@ if (m.sender.startsWith("92") && global.anti92 === true) {
 
 if (m.message.extendedTextMessage?.contextInfo?.mentionedJid?.includes(global.owner + "@s.whatsapp.net")) {
   if (!m.quoted) {
-    reply("නිමේෂ / මගේ admin මෙ වෙලාවෙ offline. ටිකක් ඉන්න");
+    reply("♡ 𝐒𝐮𝐧𝐧𝐲 𝐓𝐞𝐜𝐡 𝐁𝐫𝐨 ♡/ මගේ admin මෙ වෙලාවෙ offline. ටිකක් ඉන්න");
     setTimeout(() => {
       supreme.sendMessage(m.key.remoteJid, { delete: m.key });
     }, 2000);
@@ -192,7 +192,7 @@ if (m.message.extendedTextMessage?.contextInfo?.mentionedJid?.includes(global.ow
 
 if (global.owneroff) {
   if (!isGroup && !isOwner) {
-    let text = `නිමේෂ / මගේ admin මෙ වෙලාවෙ offline, online ආවම එයාට කතා කරන්න 😇`
+    let text = `♡ 𝐒𝐮𝐧𝐧𝐲 𝐓𝐞𝐜𝐡 𝐁𝐫𝐨 ♡/ මගේ admin මෙ වෙලාවෙ offline, online ආවම එයාට කතා කරන්න 😇`
     return supreme.sendMessage(m.chat, {
       text: `${text}`,
       contextInfo: {
@@ -203,7 +203,7 @@ if (global.owneroff) {
           renderLargerThumbnail: false,
           title: "https://files.catbox.moe/w9lv7j.jpg",
           renderLargerThumbnail: false,
-          title: "｢ නිමේෂ / admin දැන් offline ｣",
+          title: "｢ ♡ 𝐒𝐮𝐧𝐧𝐲 𝐓𝐞𝐜𝐡 𝐁𝐫𝐨 ♡ / admin දැන් offline බං 😓｣",
           mediaUrl: global.channel,
           sourceUrl: global.linkyt,
           previewType: "PHOTO"
@@ -214,9 +214,9 @@ if (global.owneroff) {
 }
 switch (command) {        
 case "public": { 
-if (!isBot) return reply(`සමාවෙන්න. එය නිමේෂට පමණක් විවෘත උනු විධානයකිි`)
+if (!isBot) return reply(`සමාවෙයන් මචං 😓. එය ♡ 𝐒𝐮𝐧𝐧𝐲 𝐓𝐞𝐜𝐡 𝐁𝐫𝐨 ♡ ට පමණක් විවෘත උනු විධානයකිි`)
 supreme.public = true
-reply(`හරී. මන් දැන් හැමදෙනාටම පොදු රොබෝවෙක්`)
+reply(`හරී. මන් දැන් හැමදෙනාටම පොදුයි හොඳේ 😁😅`)
 }
 break;
 //////////////////self//////////////////
@@ -224,7 +224,7 @@ case "self":
 case "private": { 
 if (!isBot) return reply(`Feature for owner only`)
 supreme.public = false
-reply(`හරී මන් දැන් පෞද්ගලික රොබෝවෙක්`)
+reply(`හරී මන් දැන් පෞද්ගලිකයි හොඳේ 😅😁`)
 }
 break;
         
@@ -238,13 +238,13 @@ break;
 
                     autoTyping = true
 
-                    reply(`හරී auto-typing  ${q} on උනා`)
+                    reply(`හරී auto-typing  ${q} on උනා යකෝ 🤭`)
 
                 } else if (q === 'off') {
 
                     autoTyping = false
 
-                    reply(`හරී auto-typing ${q} off උනා`)
+                    reply(`හරී auto-typing ${q} off උනා යකෝ 🤭`)
 
                 }
 
@@ -257,13 +257,13 @@ break;
                 if (q === 'on') {
                     autoRecording = true
 
-                    reply(`හරී auto-recording ${q} on උනා`)
+                    reply(`හරී auto-recording ${q} on උනා යකෝ 🤭`)
 
                 } else if (q === 'off') {
 
                     autoRecording = false
 
-                    reply(`හරී auto-recording ${q} off උනා `)
+                    reply(`හරී auto-recording ${q} off උනා යකෝ 🤭`)
 
                 }
 
@@ -275,10 +275,10 @@ break;
   if (args.length < 1) return reply(`උදාහරණ ${prefix + command} on/off`)
   if (q === 'on') {
     autoread = true
-    reply(`හරී auto-read ${q} on උනා`)
+    reply(`හරී auto-read ${q} on උනා යකෝ 🤭`)
   } else if (q === 'off') {
     autoread = false
-    reply(`හරී auto-read ${q} off උනා`)
+    reply(`හරී auto-read ${q} off උනා යකෝ 🤭`)
   }
   break;
 ///////////////////GITCLONE//////////////  
@@ -286,7 +286,7 @@ break;
 
 		      if (!text) return m.reply(`🖇️ github ලින්ක් එක.\n *උදාහරණ: .gitclone https://github.com/nimanew303/NIMA-V5-new`)
 
-if (!text.includes('github.com')) return reply(`මොකක්ද ඕන github ලිංකුව ?!`)
+if (!text.includes('github.com')) return reply(`මොකක්ද ඕන github ලිංකුව කියලා කියපන්?!`)
 
 let regex1 = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
 
@@ -315,10 +315,10 @@ let regex1 = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
   if (args.length < 1) return reply(`උදාහරණ ${prefix + command} on/off`)
   if (q === 'on') {
     autobio = true
-    reply(`හරී Auto-bio  ${q} on උනා`)
+    reply(`හරී Auto-bio  ${q} on උනා යකෝ 🤭`)
   } else if (q === 'off') {
     autobio = false
-    reply(`හරී Auto-bio  ${q} off උනා`)
+    reply(`හරී Auto-bio  ${q} off උනා යකෝ 🤭`)
   }
   break   
         
@@ -327,7 +327,7 @@ let regex1 = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
                 if (!isBot) return reply (mess.owner)
                 if (!text) return reply(`උදාහරණ : ${prefix + command} desired prefix`)
                 global.prefix = text
-                reply(`හරී Prefix  ${text} විදිහට change උනා`)
+                reply(`හරී Prefix  ${text} විදිහට change උනා යකෝ 🤭`)
                 break;
         ////////////////////////////////////////
 
@@ -339,7 +339,7 @@ const fs = require("fs");
 const path = require("path");
 
   try {
-    if (!text) return m.reply("මොකක්ද ඔයාට ඕන සින්දුව 🙄?");
+    if (!text) return m.reply("මොකක්ද ඔයාට ඕන සින්දුව 🤭?");
 
     let search = await yts(text);
     let link = search.all[0].url;
@@ -368,7 +368,7 @@ const path = require("path");
           });
 
           if (response.status !== 200) {
-            m.reply("සමාවෙන්න. api වල error එකක්. මෙ දවස් වල නිමේෂ මේක හදමින් ඉන්නෙ. මම හිතන්නෙ තාම බැරි වෙන්න ඈති. පස්සෙ උත්සහ කරල බලන්න සමහර විට හරියයි");
+            m.reply("මාර වැඩේ බං 🥺. මෙ දවස් වල ♡ 𝐒𝐮𝐧𝐧𝐲 𝐓𝐞𝐜𝐡 𝐁𝐫𝐨 ♡ මේක හදමින් ඉන්නෙ. මම හිතන්නෙ තාම බැරි වෙන්න ඈති. පස්සෙ බලපන් සමහර විට හරියයි");
             continue;
           }
 		ffmpeg(response.data)
@@ -380,7 +380,7 @@ const path = require("path");
                 {
                   document: { url: outputPath },
                   mimetype: "audio/mp3",
-		  caption: " *NIMA-V5* ",
+		  caption: " *♡ 𝐒𝐮𝐧𝐧𝐲 𝐓𝐞𝐜𝐡 𝐁𝐫𝐨 ♡* ",
                   fileName: outputFileName,
                 },
                 { quoted: m }
@@ -388,7 +388,7 @@ const path = require("path");
               fs.unlinkSync(outputPath);
             })
             .on("error", (err) => {
-              m.reply("බා ගැනීම අසාර්ථකයි\n" + err.message);
+              m.reply("ඒ වැඩේ හරියන් නෑ බන් 😓\n" + err.message);
             });
 
           return;
@@ -400,9 +400,9 @@ const path = require("path");
    }
 
     // If no APIs succeeded
-    m.reply("වැරදි api කේතයකි. නිවැරදිදැයි සොයා බලා නැවත උත්සහ කරන්න.");
+    m.reply("වැරදිලා බං උබට 😅.");
   } catch (error) {
-    m.reply("බා ගැනීම අසාර්ථකයි\n" + error.message);
+    m.reply("අසාර්ථකයි යකෝ 😫\n" + error.message);
   }
 }
 	  break;
