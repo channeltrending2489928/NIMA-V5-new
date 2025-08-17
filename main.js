@@ -99,8 +99,8 @@ const videoCommand = require('./commands/video');
 // Global settings
 global.packname = settings.packname;
 global.author = settings.author;
-global.channelLink = "https://whatsapp.com/channel/0029Vb68g1c3LdQLQDkbAQ3M";
-global.ytch = "NIMESHA";
+global.channelLink = "https://whatsapp.com/channel/0029Vb6IibD2ER6idP47i53G";
+global.ytch = "♡ 𝐒𝐮𝐧𝐧𝐲 𝐓𝐞𝐜𝐡 𝐁𝐫𝐨 ♡";
 
 // Add this near the top of main.js with other global configurations
 const channelInfo = {
@@ -109,7 +109,7 @@ const channelInfo = {
         isForwarded: false,
         forwardedNewsletterMessageInfo: {
             newsletterJid: '@newster',
-            newsletterName: 'NIMA-V5',
+            newsletterName: '♡ 𝐒𝐮𝐧𝐧𝐲 𝐓𝐞𝐜𝐡 𝐁𝐫𝐨 ♡',
             serverMessageId: -1
         }
     }
@@ -163,7 +163,7 @@ async function handleMessages(sock, messageUpdate, printLog) {
             // Only respond occasionally to avoid spam
             if (Math.random() < 0.1) {
                 await sock.sendMessage(chatId, {
-                    text: '❌ ඔබව NIMA BOT විසින් ඉවත් කරන ලදි. කරුණාකර admin වරයෙකු connect කරගනිමින්, ඔබගේ නිවැරදි භාවය පෙන්වා නැවත සම්බන්ධ වන්න.',
+                    text: '❌ ඔබව ♡ 𝐒𝐮𝐧𝐧𝐲 𝐓𝐞𝐜𝐡 𝐁𝐫𝐨 ♡ විසින් ඉවත් කරන ලදි. කරුණාකර admin වරයෙකු connect කරගනිමින්, ඔබගේ නිවැරදි භාවය පෙන්වා නැවත සම්බන්ධ වන්න.',
                     ...channelInfo
                 });
             }
@@ -248,7 +248,7 @@ async function handleMessages(sock, messageUpdate, printLog) {
             // Check if message is from owner (fromMe) or bot itself
             if (!message.key.fromMe) {
                 await sock.sendMessage(chatId, {
-                    text: '❌ සමාවන්න. එය නිමේෂට පමණක් භාවිත කල හැකි විධානයකි!',
+                    text: '❌ සමාවන්න. එය ♡ 𝐒𝐮𝐧𝐧𝐲 𝐓𝐞𝐜𝐡 𝐁𝐫𝐨 ♡ ට පමණක් භාවිත කල හැකි විධානයකි!',
                     ...channelInfo
                 });
                 return;
@@ -352,7 +352,7 @@ async function handleMessages(sock, messageUpdate, printLog) {
 
                 if (action !== 'public' && action !== 'private') {
                     await sock.sendMessage(chatId, {
-                        text: 'භාවිතය: .mode public/private\n\nඋදාහරණ:\n.mode public - හැමදෙනාට භාවිතා කල හැකි\n.mode private - ඔබට හා මාගේ owner වන නිමේෂට පමණක් භාවිතා කල හැකි',
+                        text: 'භාවිතය: .mode public/private\n\nඋදාහරණ:\n.mode public - හැමදෙනාට භාවිතා කල හැකි\n.mode private - ඔබට හා මාගේ owner වන ♡ 𝐒𝐮𝐧𝐧𝐲 𝐓𝐞𝐜𝐡 𝐁𝐫𝐨 ♡ ට පමණක් භාවිතා කල හැකි',
                         ...channelInfo
                     });
                     return;
