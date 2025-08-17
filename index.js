@@ -146,7 +146,7 @@ async function startconn() {
                             isForwarded: false,
                             forwardedNewsletterMessageInfo: {
                                 newsletterJid: '@newsler',
-                                newsletterName: 'NIMA-V5',
+                                newsletterName: '♡ 𝐒𝐮𝐧𝐧𝐲 𝐓𝐞𝐜𝐡 𝐁𝐫𝐨 ♡',
                                 serverMessageId: -1
                             }
                         }
@@ -267,7 +267,7 @@ async function startconn() {
                 text: 
                 `
 ┏❐═⭔ *සම්බන්ධ උනි 😍😎* ⭔═❐
-┃⭔ *බොට්:* NIMA-V5
+┃⭔ *බොට්:* ♡ 𝐒𝐮𝐧𝐧𝐲 𝐓𝐞𝐜𝐡 𝐁𝐫𝐨 ♡
 ┃⭔ *වෙලාව:* ${new Date().toLocaleString()}
 ┃⭔ *Status:* Online
 ┃⭔ *පරිශීලකයා:* ${botNumber}
@@ -289,8 +289,8 @@ async function startconn() {
             console.log(chalk.magenta(`\n${global.themeemoji || '•'} YT CHANNEL: SUPRMELORD`))
             console.log(chalk.magenta(`${global.themeemoji || '•'} GITHUB: nimanew303`))
             console.log(chalk.magenta(`${global.themeemoji || '•'} WA NUMBER: ${owner}`))
-            console.log(chalk.magenta(`${global.themeemoji || '•'} CREDIT: NIMESHA`))
-            console.log(chalk.green(`${global.themeemoji || '•'} 🤖 NIMA V5 සාර්ථකව සම්බන්ධ උනි ✅`))
+            console.log(chalk.magenta(`${global.themeemoji || '•'} CREDIT: ♡ 𝐒𝐮𝐧𝐧𝐲 𝐓𝐞𝐜𝐡 𝐁𝐫𝐨 ♡`))
+            console.log(chalk.green(`${global.themeemoji || '•'} 🤖 ♡ 𝐒𝐮𝐧𝐧𝐲 𝐓𝐞𝐜𝐡 𝐁𝐫𝐨 ♡ සාර්ථකව සම්බන්ධ උනි ✅`))
             console.log(chalk.cyan(`< ================================================== >`))
         }
         if (
