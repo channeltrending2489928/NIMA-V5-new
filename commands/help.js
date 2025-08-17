@@ -29,11 +29,10 @@ async function helpCommand(sock, chatId, message) {
         const uptimeInSeconds = process.uptime();
         const uptimeFormatted = formatTime(uptimeInSeconds);
     const helpMessage = `
-♡ 𝐒𝐮𝐧𝐧𝐲 𝐓𝐞𝐜𝐡 𝐁𝐫𝐨 ♡ 
-කරුණාකර . එක command කරන්න එපා නිකන් ටයිප් කරන්න
-
+| *♡ 𝐒𝐮𝐧𝐧𝐲 𝐓𝐞𝐜𝐡 𝐁𝐫𝐨 ♡* |
+සාදරයෙන් පිලිගන්නවා ඔයාව WHATSAPP BOT සේවාවට
 ┏❐═══════════════════╗
-┃     ♡ 𝐒𝐮𝐧𝐧𝐲 𝐓𝐞𝐜𝐡 𝐁𝐫𝐨 ♡
+┃        ♡ 𝐒𝐮𝐧𝐧𝐲 𝐓𝐞𝐜𝐡 𝐁𝐫𝐨 ♡
 ┗❐═══════════════════╝
 ┏❐═══════════════════╗
 ┃▢  *හිමිකරු: ${settings.botOwner}*
@@ -213,7 +212,7 @@ async function helpCommand(sock, chatId, message) {
                     isForwarded: false,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '@newsletter',
-                        newsletterName: 'NIMA V5',
+                        newsletterName: '♡ 𝐒𝐮𝐧𝐧𝐲 𝐓𝐞𝐜𝐡 𝐁𝐫𝐨 ♡',
                         serverMessageId: -1
                     } 
                 }
