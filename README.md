@@ -1,4 +1,4 @@
-# NIMA-V5
+# ♡ 𝐒𝐮𝐧𝐧𝐲 𝐓𝐞𝐜𝐡 𝐁𝐫𝐨 ♡
 
 
 <div align="center"> 
@@ -8,7 +8,7 @@
 </div> 
 <div align="center"> 
   <a href=""> 
-    <img src="https://files.catbox.moe/w9lv7j.jpg" alt="NIMA V5" height="300"> 
+    <img src="https://files.catbox.moe/w9lv7j.jpg" alt="♡ 𝐒𝐮𝐧𝐧𝐲 𝐓𝐞𝐜𝐡 𝐁𝐫𝐨 ♡" height="300"> 
   </a> 
 </div>
 
@@ -18,7 +18,7 @@
 
 > 1:  **Fork the Repository**
 
-_Click the button below to fork  NIMA-V5 repository to your GitHub account_
+_Click the button below to fork  ♡ 𝐒𝐮𝐧𝐧𝐲 𝐓𝐞𝐜𝐡 𝐁𝐫𝐨 ♡ repository to your GitHub account_
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Tap+fork+button+Bellow+To+Fork;NIMA+V5+REPO+On+Github)](https://git.io/typing-svg)
 > <div align="left">
   <a href="https://github.com/nimanew303/NIMA-V5-new/fork">
