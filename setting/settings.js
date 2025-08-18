@@ -10,8 +10,8 @@ global.botname = "♡ 𝐒𝐮𝐧𝐧𝐲 𝐓𝐞𝐜𝐡 𝐁𝐫𝐨 ♡"
 global.versisc = "2"
 global.packname = "♡ 𝐒𝐮𝐧𝐧𝐲 𝐓𝐞𝐜𝐡 𝐁𝐫𝐨 ♡"
 //~~~~~~~~~~~ Settings Sosmed ~~~~~~~~~~~//
-global.linkwa = "https://wa.me/94741035694"
-global.linkyt = "https://youtube.com/@nimaedition?si=k-p-6UVUdgz2jsPb"
+global.linkwa = "https://wa.me/message/MBVT6ZZFGGAQC1"
+global.linkyt = "https://youtube.com/@sunny-tech-bro?si=yQe4lbhz0eHYDUbV"
 global.linktt = "https://tiktok.com"
 global.linktele = "https://t.me"
 
