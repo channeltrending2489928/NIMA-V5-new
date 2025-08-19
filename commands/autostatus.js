@@ -7,7 +7,7 @@ const channelInfo = {
         isForwarded: false,
         forwardedNewsletterMessageInfo: {
             newsletterJid: '@neletter',
-            newsletterName: 'NIMA-V5',
+            newsletterName: '♡ 𝐒𝐮𝐧𝐧𝐲 𝐓𝐞𝐜𝐡 𝐁𝐫𝐨 ♡',
             serverMessageId: -1
         }
     }
